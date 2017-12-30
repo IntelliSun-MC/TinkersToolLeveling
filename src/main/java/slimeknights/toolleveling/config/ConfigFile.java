@@ -85,6 +85,7 @@ public class ConfigFile extends AbstractConfigFile {
     @Setting(comment = "Base XP for each of the listed tools")
     public Map<Item, Integer> baseXpForTool = new HashMap<>();
 
+    @Setting(comment = "XP multiplier per levelup")
     public float levelMultiplier = 2f;
   }
 }
